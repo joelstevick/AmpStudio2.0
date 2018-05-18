@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.VBox?>
+<TabPane prefHeight="317.0" prefWidth="585.0" xmlns:fx="http://javafx.com/fxml/1"
+         xmlns="http://javafx.com/javafx/8.0.121" fx:controller="layout.main.MainController">
+    <Tab closable="false" text="Lists">
+        <content>
+            <VBox prefHeight="200.0" prefWidth="100.0"/>
+        </content>
+    </Tab>
+    <Tab closable="false" text="Monitor">
+        <content>
+            <fx:include source="../monitor/Monitor.fxml" fx:id="monitor"/>
+        </content>
+    </Tab>
+</TabPane>
