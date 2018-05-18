@@ -10,5 +10,4 @@ public class MonitorControllerTest {
     void canGetMessages() {
         List<AmpMessagingApi.AmpMessage> ampMessages = AmpMessagingApi.consumeMessages();
     }
-//
 }
